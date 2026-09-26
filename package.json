@@ -1,16 +1,16 @@
 {
   "name": "ci-cd-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple CI/CD demonstration application",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
     "test": "node --test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.1.0"
   }
 }
